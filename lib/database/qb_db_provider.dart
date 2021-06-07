@@ -34,7 +34,7 @@ class QuestionDbProvider {
           'question TEXT,'
           'answer TEXT,'
           'category_id INTEGER,'
-          'shortcut TEXT'
+          'shortcut TEXT,'
           'lang TEXT,'
           'created_at TEXT,'
           'updated_at TEXT'

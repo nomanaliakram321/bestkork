@@ -1,5 +1,6 @@
 import 'package:bestkrok_easykrok/screens/contactus.dart';
 import 'package:bestkrok_easykrok/screens/all_category_screen.dart';
+import 'package:bestkrok_easykrok/screens/email_luancher_screen.dart';
 import 'package:bestkrok_easykrok/screens/language_screen.dart';
 import 'package:bestkrok_easykrok/screens/main_screen.dart';
 import 'package:bestkrok_easykrok/screens/more_app_screens.dart';
@@ -27,7 +28,7 @@ class DrawerServices {
       return ContactUsScreen();
     }
     if (title == 'Feedback') {
-      return CategoryScreen();
+      return EmailLauncherScreen();
     }
   }
 }
